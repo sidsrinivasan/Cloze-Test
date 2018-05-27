@@ -262,7 +262,7 @@ if __name__ == '__main__':
 
     # Prepare validation set as torch Variables
     print("Encoding Val Data...")
-    testing_pairs = preproc.stitchVariables_clozetest(val_pairs)
+    testing_pairs = preproc.stitchVariables_clozetest(test_pairs)
     print("DONE!")
 
     mlp_cloze = torch.load('skip-rel-soft-val07553.pt')
