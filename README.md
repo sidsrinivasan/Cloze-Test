@@ -13,6 +13,7 @@ Requirements:
 # Data
 
 Available at: https://drive.google.com/drive/folders/1d2WsD-Zvf8k_slDlJJyH9GVWAzo2Ium4?usp=sharing
+
 Files: 
 
 - ROC_encoded.hdf5 (not used): The skip-thought embeddings of the training stories in ROCStory corpus
