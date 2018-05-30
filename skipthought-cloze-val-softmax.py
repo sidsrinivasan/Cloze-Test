@@ -243,7 +243,7 @@ def getAccuracy(MLP, batch_size):
 if __name__ == '__main__':
 
     # Gather data
-    f1 = h5py.File('ROC_encoded.hdf5', 'r')
+    f1 = h5py.File('ROCval_encoded.hdf5', 'r')
     f2 = h5py.File('ROCval_encoded.hdf5', 'r')
     f3 = h5py.File('ROCtest_encoded.hdf5', 'r')
     

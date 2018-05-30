@@ -15,7 +15,7 @@ use_cuda = torch.cuda.is_available()
 def get_data(f1, f2, f3):
 
     # Collect skip-thought encodings
-    train_stories = torch.from_numpy(f1['fullROC'][:]).type(torch.FloatTensor)
+    train_stories = torch.from_numpy(f1['fullROC_val'][:]).type(torch.FloatTensor)
 
     val_stories = torch.from_numpy(f2['fullROC_val'][:]).type(torch.FloatTensor)
     val_labels = torch.from_numpy(f2['fullROC_labels'][:]).type(torch.LongTensor)
